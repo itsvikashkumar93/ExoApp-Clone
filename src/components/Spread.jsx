@@ -26,23 +26,27 @@ function Spread() {
           <h4 className="text-sm sm:text-base">In the media</h4>
         </div>
 
-        {["Spread", "the News"].map((elem, i) => (
-          <h1 key={i} className="text-6xl text-center leading-none -my-8 sm:-my-8 sm:text-[10vw] sm:tracking-tight overflow-hidden">
-            <motion.span
-              initial={{ rotate: 70, y: "60%", opacity: 0 }}
-              whileInView={{ rotate: 0, y: 0, opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{
-                ease: [0.22, 1, 0.36, 1],
-                duration: 1.3,
-              }}
-              className="inline-block origin-left"
+        <div className="w-full">
+          {["Spread", "the News"].map((elem, i) => (
+            <h1
+              key={i}
+              className="text-6xl text-center leading-none -my-8 sm:-my-8 sm:text-[10vw] sm:tracking-tight overflow-hidden"
             >
-              {elem}
-            </motion.span>
-          </h1>
-        ))}
-
+              <motion.span
+                initial={{ rotate: 70, y: "60%", opacity: 0 }}
+                whileInView={{ rotate: 0, y: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{
+                  ease: [0.22, 1, 0.36, 1],
+                  duration: 1.3,
+                }}
+                className="inline-block origin-left"
+              >
+                {elem}
+              </motion.span>
+            </h1>
+          ))}
+        </div>
         <p className="text-center px-16 text-lg sm:text-2xl sm:px-[35%]">
           Find out more about our work on these leading design and technology
           platforms.
