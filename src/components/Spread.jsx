@@ -7,7 +7,7 @@ function Spread() {
       <div
         data-scroll
         data-scroll-speed=".2"
-        className="text-container h-[75vh] sm:h-[100vh] w-full py-20 text-black flex items-center justify-between flex-col"
+        className="text-container h-[60vh] sm:h-[100vh] w-full py-20 text-black flex items-center justify-between flex-col"
       >
         <div className="text-top flex gap-2 ">
           <svg
@@ -30,7 +30,7 @@ function Spread() {
           {["Spread", "the News"].map((elem, i) => (
             <h1
               key={i}
-              className="text-6xl text-center leading-none -my-8 sm:-my-8 sm:text-[10vw] sm:tracking-tight overflow-hidden"
+              className="text-6xl text-center leading-none sm:text-[10vw] sm:tracking-tight overflow-hidden"
             >
               <motion.span
                 initial={{ rotate: 70, y: "60%", opacity: 0 }}
