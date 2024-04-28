@@ -61,7 +61,7 @@ function Images() {
       >
         <div
           ref={first}
-          className="absolute h-24 w-20 left-32 top-6 sm:h-64 sm:w-44 sm:left-[100%] sm:top-16"
+          className="absolute h-24 w-20 left-36 top-6 sm:h-64 sm:w-44 sm:left-[100%] sm:top-16"
         >
           <img
             className="h-full w-full object-cover"
@@ -71,7 +71,7 @@ function Images() {
         </div>
         <div
           ref={second}
-          className="absolute h-[30%] sm:h-[33%] aspect-video -left-28 top-20 sm:-left-[92%] sm:top-52"
+          className="absolute h-[28%] sm:h-[33%] aspect-video -left-28 top-20 sm:-left-[92%] sm:top-52"
         >
           <video
             className="w-full h-full object-cover"
