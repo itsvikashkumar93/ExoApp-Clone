@@ -27,7 +27,7 @@ function Spread() {
         </div>
 
         {["Spread", "the News"].map((elem, i) => (
-          <h1 key={i} className="text-6xl text-center leading-none -my-5 sm:-my-8 sm:text-[10vw] sm:tracking-tight overflow-hidden">
+          <h1 key={i} className="text-6xl text-center leading-none -my-8 sm:-my-8 sm:text-[10vw] sm:tracking-tight overflow-hidden">
             <motion.span
               initial={{ rotate: 70, y: "60%", opacity: 0 }}
               whileInView={{ rotate: 0, y: 0, opacity: 1 }}

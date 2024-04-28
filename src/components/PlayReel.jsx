@@ -14,22 +14,34 @@ function PlayReel() {
     var tl = gsap.timeline({
       scrollTrigger: {
         trigger: parent.current,
-        start: 'top 0',
+        start: "top 0",
         pin: true,
         // markers: true,
         scrub: 1,
       },
     });
 
-    tl.to(videodiv.current, {
-      width: "100%"
-    }, 'a')
-    .to(play.current, {
-      x: '62%'
-    }, 'a')
-    .to(reel.current, {
-      x: '-62%'
-    }, 'a')
+    tl.to(
+      videodiv.current,
+      {
+        width: "100%",
+      },
+      "a"
+    )
+      .to(
+        play.current,
+        {
+          x: "62%",
+        },
+        "a"
+      )
+      .to(
+        reel.current,
+        {
+          x: "-62%",
+        },
+        "a"
+      );
   });
 
   return (
@@ -66,8 +78,12 @@ function PlayReel() {
         </div>
 
         <h1 className="w-full flex justify-center items-center gap-20 sm:gap-96 sm:px-32">
-          <div ref={play} className="text-6xl sm:text-[10vw]">Play</div>
-          <div ref={reel} className="text-6xl sm:text-[10vw]">Reel</div>
+          <div ref={play} className="text-6xl sm:text-[10vw]">
+            Play
+          </div>
+          <div ref={reel} className="text-6xl sm:text-[10vw]">
+            Reel
+          </div>
         </h1>
 
         <p className="text-sm text-center">

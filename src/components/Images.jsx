@@ -26,7 +26,7 @@ function Images() {
     tl.to(
       first.current,
       {
-        x: "30%",
+        x: "20%",
       },
       "a"
     )
@@ -40,14 +40,14 @@ function Images() {
       .to(
         third.current,
         {
-          x: "-40%",
+          x: "-20%",
         },
         "a"
       )
       .to(
         fourth.current,
         {
-          x: "40%",
+          x: "30%",
         },
         "a"
       );
@@ -57,11 +57,11 @@ function Images() {
     <div className="images-container h-[70vh] sm:h-[130vh] w-full flex items-center justify-center">
       <div
         ref={parent}
-        className="images h-[50%]  w-[35%] sm:h-[70%] sm:w-[26%] relative"
+        className="images h-[50%]  w-[37%] sm:h-[70%] sm:w-[26%] relative"
       >
         <div
           ref={first}
-          className="absolute h-24 w-16 left-32 top-6 sm:h-64 sm:w-44 sm:left-[101%] sm:top-16"
+          className="absolute h-24 w-16 left-32 top-6 sm:h-64 sm:w-44 sm:left-[100%] sm:top-16"
         >
           <img
             className="h-full w-full object-cover"
@@ -83,7 +83,7 @@ function Images() {
         </div>
         <div
           ref={third}
-          className="absolute h-24 w-32 -left-[90%] -bottom-20 sm:h-[40%] sm:w-[100%] sm:-left-[100%] sm:-bottom-52 "
+          className="absolute h-24 w-32 -left-[80%] -bottom-20 sm:h-[40%] sm:w-[100%] sm:-left-[100%] sm:-bottom-52 "
         >
           <img
             className="h-full w-full object-cover"
@@ -93,7 +93,7 @@ function Images() {
         </div>
         <div
           ref={fourth}
-          className="absolute h-[60%] w-32 -right-28 -bottom-28 sm:w-[100%] sm:-right-[100%] sm:-bottom-[50%]"
+          className="absolute h-[60%] w-36 -right-28 -bottom-28 sm:w-[100%] sm:-right-[100%] sm:-bottom-[50%]"
         >
           <video
             className="w-full h-full object-cover"

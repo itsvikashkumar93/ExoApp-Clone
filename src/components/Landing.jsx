@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Power0, Power4 } from "gsap";
 function Landing() {
   return (
-    <div className="h-[150vh] sm:h-[280vh] w-full relative font-['TWK_Lausanne_300']">
+    <div className="h-[135vh] sm:h-[280vh] w-full relative font-['TWK_Lausanne_300']">
       <div className="picture w-full h-full overflow-hidden ">
         <img
           data-scroll
@@ -66,7 +66,7 @@ function Landing() {
           <h1 className=""></h1>
         </div>
 
-        <div className="para2 mt-32">
+        <div className="para2 mt-16">
           <p className="text-lg pr-1 leading-snug sm:w-[39%] sm:text-2xl ">
             We help experience-driven companies thrive by making their audience
             feel the refined intricacies of their brand and product in the

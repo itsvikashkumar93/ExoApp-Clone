@@ -13,7 +13,7 @@ function App() {
   const locomotiveScroll = new LocomotiveScroll();
 
   return (
-    <div className=" w-full text-white font-['TWK']">
+    <div className=" w-full text-white">
       <Navbar />
       <Landing />
       <Work />
