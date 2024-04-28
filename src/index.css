@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "TWK";
+    src: url("../Fonts/TWKLausanne-300.b6399e7.ttf");
+}
+
+*{
+    font-family: 'TWK';
+}
